@@ -1,8 +1,13 @@
 import Link from "next/link";
-
-import { brunoAce } from "@/app/layout";
+import { Bruno_Ace } from "next/font/google";
 
 import { ToggleTheme } from "../ToggleTheme";
+
+const brunoAce = Bruno_Ace({
+  weight: "400",
+  variable: "--font-bruno-ace",
+  subsets: ["latin"],
+});
 
 export const Header = () => {
   return (
