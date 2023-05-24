@@ -7,10 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "white-primary": "rgba(243, 244, 246, 1)",
+        "blue-primary": "rgba(17, 24, 39, 1)",
+      },
       fontSize: {
         logo: "clamp(1.75rem, 5vw, 3rem)",
       },
-
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
