@@ -1,15 +1,10 @@
-import { Inter, Bruno_Ace } from "next/font/google";
+import { Inter } from "next/font/google";
 
-import "../styles/globals.css";
 import { Header } from "@/components";
 
-const inter = Inter({ subsets: ["latin"] });
+import "../styles/globals.css";
 
-export const brunoAce = Bruno_Ace({
-  weight: "400",
-  variable: "--font-bruno-ace",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -23,10 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} bg-[#14131a]`}
-        suppressHydrationWarning={true}
-      >
+      <body className={`${inter.className}`}>
         <Header />
         {children}
       </body>
