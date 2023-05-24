@@ -5,5 +5,5 @@ interface InputProps extends ComponentProps<"input"> {
 }
 
 export const Input = ({ className, ...attributes }: InputProps) => {
-  return <input className={className} {...attributes} type="text" />;
+  return <input className={className} {...attributes} />;
 };
