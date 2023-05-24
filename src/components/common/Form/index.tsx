@@ -6,5 +6,9 @@ interface FormProps extends ComponentProps<"form"> {
 }
 
 export const Form = ({ className, children, ...attributes }: FormProps) => {
-  return <form {...attributes}>{children}</form>;
+  return (
+    <form className={className} {...attributes}>
+      {children}
+    </form>
+  );
 };
