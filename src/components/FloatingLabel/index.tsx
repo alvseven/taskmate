@@ -25,7 +25,7 @@ export const FloatingLabel = ({
         className="peer h-10 w-full pl-2 border-2 rounded border-slate-100 text-gray-800 placeholder-transparent focus:outline-none focus:border-[#1a73e8]"
       />
       <Label
-        className="absolute left-0 -top-7 text-gray-500 pl-2 text-base transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-7 peer-focus:text-base"
+        className="absolute left-0 -top-7 text-gray-400 pl-2 text-base transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-7 peer-focus:text-base"
         htmlFor={type}
       >
         {children}
