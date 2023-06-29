@@ -9,12 +9,12 @@ export const SignInForm = () => {
       <p className="font-semibold text-lg text-center text-white-primary">
         Please sign in to continue
       </p>
-      <FloatingLabel id="email" placeholder="youremail@mail.com">
+      {/* <FloatingLabel id="email" placeholder="youremail@mail.com">
         Email
       </FloatingLabel>
       <FloatingLabel id="password" type="password" placeholder="********">
         Password
-      </FloatingLabel>
+      </FloatingLabel> */}
       <Link
         href="/forgot-password"
         className="text-[#F3F4F6] text-sm text-right mt-3"
@@ -31,7 +31,6 @@ export const SignInForm = () => {
       <p className="text-sm text-[#9CA3AF] text-center mt-8 mb-4">
         Don't have an account?
         <Link href="signup" className="text-[#F3F4F6] text-base">
-          {" "}
           Sign up
         </Link>
       </p>
