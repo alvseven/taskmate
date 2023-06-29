@@ -29,7 +29,7 @@ export const SignInForm = () => {
       </Button>
       <SocialLogin />
       <p className="text-sm text-[#9CA3AF] text-center mt-8 mb-4">
-        Don't have an account?
+        Dont have an account?
         <Link href="signup" className="text-[#F3F4F6] text-base">
           Sign up
         </Link>
