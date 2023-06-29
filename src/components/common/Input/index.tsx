@@ -5,8 +5,9 @@ interface InputProps extends ComponentProps<"input"> {
   className: string;
 }
 
-export const Input = forwardRef<HTMLInputElement, InputProps>(
-  ({ className, ...attributes }, ref) => {
-    return <input ref={ref} className={className} {...attributes} />;
-  }
-);
+export const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
+  { className, ...attributes },
+  ref
+) {
+  return <input ref={ref} className={className} {...attributes} />;
+});
